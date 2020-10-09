@@ -9,7 +9,7 @@
 
 ![image](.github/Screenshot.png)
 
-### Live version of the code: [REPL.it](https://repl.it/@cristianCeamatu/microverse-ruby-telegram-bot)
+### Live version of the code: [REPL.it](https://repl.it/@rickoburu/Telegram-bot#bin/main.rb)
 
 ## Available commands for the Telegram-bot
 
@@ -18,16 +18,11 @@
 3. `/joke` receive random joke
 4. `/movies` receive random movie with ranking
 
-## Video Explanation
-
-Here is the [video explanation](https://www.loom.com/share/b997a75a2bcb46f1ad2bc2a03ebe4015) of this project.
-
 ## Built With
 
 - Ruby
 - [Telegram API](https://core.telegram.org/api)
 - [IMDB api](https://rapidapi.com/apidojo/api/imdb8)
-- [Tenor Gif API](https://tenor.com/gifapi/documentation)
 - RSpec
 - Rubocop
 
@@ -43,19 +38,25 @@ To get this project up and running locally, you must have ruby installed on your
 Navigate through the local folder where you want to clone the repository and run<br>
 `git clone git@github.com:cristianCeamatu/microverse-ruby-telegram-bot.git`. It will clone the repo to your local folder.<br>
 or with https<br>
-`https://github.com/RICKCOYL/Telegram-bot.git`.<br>
+`git clone https://github.com/cristianCeamatu/microverse-ruby-telegram-bot.git`.<br>
 **Step 2**<br>
-Run `cd Telegram-bot`<br>
+Run `cd microverse-ruby-telegram-bot`<br>
 **Step 3**<br>
 Run `bundle install` to install the gems from the `Gemfile`.<br>
 **Step 4**<br>
-Download the [Telegram app](https://desktop.telegram.org/), create an account.<br>
-
+Download the [Telegram app](https://desktop.telegram.org/), create an account and talk to the [Botfather](https://t.me/botfather). Follow the instructions and create a bot, you will then receive an API Token that looks like this: `1347431199:AAH4hPt6PDiJB4swk23Lb4oOzwocjKpba0S4` and the link to your bot.<br>
+**Step 5**<br>
+Visit [Tenor API page](https://tenor.com/gifapi/documentation) and follow the quickstart steps to get a Tenor API Key.<br>
 **Step 6**<br>
-Run `ruby bin/main.rb` to start the bot.<br>
-
+Visit [Google API page](https://developers.google.com/custom-search/v1/overview) and follow the quickstart steps to get the API token.<br>
+**Step 7**<br>
+Run `touch .env` on your terminal to create the `.env` file. Then add your tokens in the required fields `TELEGRAM_BOT_TOKEN=` and `TENOR_API_TOKEN=` inside the file.<br>
 **Step 8**<br>
-You can use the commands defined in the [Available commands section](#available-commands-for-the-Telegram-bot) defined above.<br>
+Run `ruby bin/bot.rb` to start the bot.<br>
+**Step 9**<br>
+Open the link to the bot that you received from the Botfather.<br>
+**Step 10**<br>
+You can use the commands defined in the [Available commands section](#available-commands-for-the-master-search-bot) defined above.<br>
 
 ## Repository Contents
 
