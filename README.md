@@ -49,14 +49,11 @@ Run `cd Telegram-bot`<br>
 **Step 3**<br>
 Run `bundle install` to install the gems from the `Gemfile`.<br>
 **Step 4**<br>
-Download the [Telegram app](https://desktop.telegram.org/), create an account and talk to the [Botfather](https://t.me/botfather). Follow the instructions and create a bot, you will then receive an API Token that looks like this: `1347431199:AAH4hPt6PDiJB4swk23Lb4oOzwocjKpba0S4` and the link to your bot.<br>
-**Step 5**<br>
-Visit [Rapid API page](https://rapidapi.com/apidojo/api/imdb8) to get the imdb API Key.<br>
+Download the [Telegram app](https://desktop.telegram.org/), create an account.<br>
 
 **Step 6**<br>
 Run `ruby bin/main.rb` to start the bot.<br>
-**Step 7**<br>
-Open the link to the bot that you received from the Botfather.<br>
+
 **Step 8**<br>
 You can use the commands defined in the [Available commands section](#available-commands-for-the-Telegram-bot) defined above.<br>
 
