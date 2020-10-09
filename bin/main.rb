@@ -2,6 +2,7 @@
 # frozen_string_literal: false
 require 'telegram/bot'
 require './lib/movies.rb'
+require './lib/jokes.rb'
 
 
     my_token = '1360613957:AAG9BgrQTtYUCs8TFIMab_VMRfVrfUNE4ow'.freeze
@@ -14,7 +15,7 @@ require './lib/movies.rb'
     bot.listen do |message|
       case message.text
         when '/start'
-            bot.api.send_message(chat_id: message.chat.id, text: 'Hello,i am Jarvis! do you want to see the random best movies then type /movies')
+            bot.api.send_message(chat_id: message.chat.id, text: 'Hello,i am Jarvis! do you want to see the random movie choices then type /movies or type /joke for a some dad jokes')
 
         when '/movies'
             film = Movies.new
@@ -23,6 +24,11 @@ require './lib/movies.rb'
             
             bot.api.send_message(chat_id: message.chat.id, text: ("The name of the movie is  #{filmz[:title]} #{filmz[:imageUrl]} and has a rank of #{filmz[:rank]}").to_s, date: message.date)
 
+        when '/joke'
+            joke = Jokes.new
+       
+            bot.api.send_message(chat_id: message.chat.id, text: joke.random_joke)
+            
         when '/stop'
 
             bot.api.send_message(chat_id: message.chat.id, text: "Bye, #{message.from.first_name}", date: message.date)
