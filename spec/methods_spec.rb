@@ -1,3 +1,5 @@
+# frozen_string_literal: false
+
 require_relative '../lib/methods'
 
 describe Methods do
@@ -8,3 +10,4 @@ describe Methods do
     end
   end
 end
+# frozen_string_literal: true

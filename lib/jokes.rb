@@ -15,9 +15,8 @@ class Jokes
                   'I don\'t trust stairs. They\'re always up to something',
                   'Did you hear the rumor about butter? Well, I\'m not going to spread it!',
                   'Why can\'t a nose be 12 inches long? Because then it would be a foot.',
-                  'What do you call cheese that isn\'t yours? Nacho cheese.'
-                  'What kind of shoes do ninjas wear? Sneakers!"'
-                ]
+                  'What do you call cheese that isn\'t yours? Nacho cheese.',
+                  'What kind of shoes do ninjas wear? Sneakers!']
   end
 
   def random_joke

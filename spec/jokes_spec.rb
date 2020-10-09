@@ -1,4 +1,6 @@
-require_relative '../lib/jokes'
+# frozen_string_literal: false
+
+require_relative '../lib/jokes.rb'
 
 describe Jokes do
   let(:joke) { Jokes.new }
@@ -14,3 +16,4 @@ describe Jokes do
     end
   end
 end
+# frozen_string_literal: true

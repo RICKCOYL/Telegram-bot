@@ -7,11 +7,7 @@
 
 ## You can see a short demo of the Bot /start command in the screenshot below.
 
-![image](.github/app_screenshot.png)
-
-## The files structure of the project
-
-![screenshot](.github/folder_structure.png)
+![image](.github/Screenshot.png)
 
 ### Live version of the code: [REPL.it](https://repl.it/@cristianCeamatu/microverse-ruby-telegram-bot)
 
