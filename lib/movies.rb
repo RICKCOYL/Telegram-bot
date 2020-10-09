@@ -3,9 +3,10 @@
 require 'uri'
 require 'net/http'
 require 'openssl'
+
 class Movies
-    def movie
-        url = URI('https://imdb8.p.rapidapi.com/title/auto-complete?q=game%20of%20thr')
+    def movie(query='game')
+        url = URI("https://imdb8.p.rapidapi.com/title/auto-complete?q=#{query}")
 
         http = Net::HTTP.new(url.host, url.port)
         http.use_ssl = true
@@ -16,7 +17,11 @@ class Movies
         request['x-rapidapi-key'] = '0e3f23eb4emsh19bf5893637a698p13d9c7jsn2f522f9c39b0'
 
         response = http.request(request)
-        puts response.read_body
+        response.read_body
+        
+        JSON.parse(response.read_body)['d'].map {|x| {title:x['l'],rank:x['rank']} }
     end
+
+
 end
 # frozen_string_literal: true
