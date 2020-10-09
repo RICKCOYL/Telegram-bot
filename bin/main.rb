@@ -12,7 +12,7 @@ Telegram::Bot::Client.run(my_token, logger: Logger.new($stderr)) do |bot|
   bot.listen do |message|
     case message.text
     when '/start'
-      bot.api.send_message(chat_id: message.chat.id, text: 'Hello,i am Jarvis! do you want to see the random movie choices then type /movies or type /joke for a some dad jokes')
+      bot.api.send_message(chat_id: message.chat.id, text: 'Hello,i am Jarvis! do you want to see random movie choices then type /movies or type /joke for a some dad jokes')
 
     when '/movies'
       film = Movies.new
