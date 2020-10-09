@@ -1,5 +1,3 @@
-# frozen_string_literal: false
-
 require_relative '../lib/jokes.rb'
 
 describe Jokes do
@@ -16,4 +14,3 @@ describe Jokes do
     end
   end
 end
-# frozen_string_literal: true

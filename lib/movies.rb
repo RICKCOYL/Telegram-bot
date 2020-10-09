@@ -1,6 +1,3 @@
-# frozen_string_literal: false
-
-# rubocop: disable Metrics/AbcSize
 require 'uri'
 require 'net/http'
 require 'openssl'
@@ -23,4 +20,3 @@ class Movies
     JSON.parse(response.read_body)['d'].map { |x| { imageUrl: x['i']['imageUrl'], title: x['l'], rank: x['rank'] } }
   end
 end
-# rubocop: enable Metrics/AbcSize

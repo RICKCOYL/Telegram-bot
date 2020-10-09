@@ -21,4 +21,3 @@ class Jokes
     Methods.rand_string(@dad_jokes)
   end
 end
-
