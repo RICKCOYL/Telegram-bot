@@ -1,3 +1,4 @@
+# frozen_string_literal: false
 
 require 'uri'
 require 'net/http'
@@ -22,3 +23,4 @@ class Jokes
     Methods.rand_string(@dad_jokes)
   end
 end
+# frozen_string_literal: true
