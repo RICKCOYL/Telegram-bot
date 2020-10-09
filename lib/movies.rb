@@ -18,8 +18,9 @@ class Movies
 
         response = http.request(request)
         response.read_body
-        #JSON.parse(response.read_body)['i'].map {|x| {imageUrl:x['imageUrl']} }
-        JSON.parse(response.read_body)['d'].map {|x| {imageUrl:x["imageUrl"],title:x['l'],rank:x['rank']} }
+     
+        JSON.parse(response.read_body)['d'].map {|x| {imageUrl:x['i']["imageUrl"],title:x['l'],rank:x['rank']} }
     end
+   
 
 end
