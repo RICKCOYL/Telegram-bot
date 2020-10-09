@@ -36,4 +36,3 @@ Telegram::Bot::Client.run(my_token, logger: Logger.new($stderr)) do |bot|
   end
 end
 # rubocop:enable Layout/LineLength
-
