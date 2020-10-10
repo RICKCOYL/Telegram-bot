@@ -48,10 +48,10 @@ Run `bundle install` to install the gems from the `Gemfile`.<br>
 **Step 4**<br>
 Download the [Telegram app](https://desktop.telegram.org/), create an account and talk to the [Botfather](https://t.me/botfather). Follow the instructions and create a bot, you will then receive an API Token that looks like this: `1347431199:AAH4hPt6PDiJB4swk23Lb4oOzwocjKpba0S4` and the link to your bot.<br>
 **Step 5**<br>
-Visit [Rapid API page](https://rapidapi.com/) and follow the quickstart steps to get the API token and you can do this by searching for the api subscribing to it and copying the code snippet to the right after chosing the coding language that you use in this case ruby.<br>
+Run `touch .env` on your terminal to create the `.env` file. Then add your tokens in the required fields `TELEGRAM_BOT_TOKEN=` and `TENOR_API_TOKEN=` inside the file.<br>
 **Step 6**<br>
 Run `ruby bin/main.rb` to start the bot.<br>
-**Step 10**<br>
+**Step 7**<br>
 You can use the commands defined in the [Available commands section](#available-commands-for-the-master-search-bot) defined above.<br>
 
 ## Repository Contents
