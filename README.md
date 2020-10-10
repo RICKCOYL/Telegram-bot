@@ -41,13 +41,12 @@ To get this project up and running locally, you must have ruby installed on your
 **Step 1**<br>
 Navigate through the local folder where you want to clone the repository and run<br>
 `git clone https://github.com/RICKCOYL/Telegram-bot.git`.
-**Step 2**<br>
+**Step 2**
 Run `cd Telegram-bot`<br>
 **Step 3**<br>
 Run `bundle install` to install the gems from the `Gemfile`.<br>
 **Step 4**<br>
 Download the [Telegram app](https://desktop.telegram.org/), create an account and search for jarvis bot with the username of @Jarvisexcel_bot.<br>
-
 **Step 5**<br>
 Run `ruby bin/main.rb` to start the bot.<br>
 **Step 6**<br>
