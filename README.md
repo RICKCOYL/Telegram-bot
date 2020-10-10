@@ -41,7 +41,7 @@ To get this project up and running locally, you must have ruby installed on your
 **Step 1**<br>
 Navigate through the local folder where you want to clone the repository and run<br>
 `git clone https://github.com/RICKCOYL/Telegram-bot.git`.<br>
-**Step 2**
+**Step 2**<br>
 Run `cd Telegram-bot`<br>
 **Step 3**<br>
 Run `bundle install` to install the gems from the `Gemfile`.<br>
