@@ -48,7 +48,7 @@ Run `bundle install` to install the gems from the `Gemfile`.<br>
 **Step 4**<br>
 Download the [Telegram app](https://desktop.telegram.org/), create an account and talk to the [Botfather](https://t.me/botfather). Follow the instructions and create a bot, you will then receive an API Token that looks like this: `1347431199:AAH4hPt6PDiJB4swk23Lb4oOzwocjKpba0S4` and the link to your bot.<br>
 **Step 5**<br>
-Run `touch .env` on your terminal to create the `.env` file. Then add your tokens in the required fields `TELEGRAM_BOT_TOKEN=` and `TENOR_API_TOKEN=` inside the file.<br>
+Run `touch .env` on your terminal to create the `.env` file. Then add your tokens in the required fields `TELEGRAM_BOT_TOKEN=` inside the file.<br>
 **Step 6**<br>
 Run `ruby bin/main.rb` to start the bot.<br>
 **Step 7**<br>
