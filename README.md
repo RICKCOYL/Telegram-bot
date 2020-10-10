@@ -40,18 +40,17 @@ To get this project up and running locally, you must have ruby installed on your
 
 **Step 1**<br>
 Navigate through the local folder where you want to clone the repository and run<br>
-`https://github.com/RICKCOYL/Telegram-bot.git`.
+`git clone https://github.com/RICKCOYL/Telegram-bot.git`.
 **Step 2**<br>
 Run `cd Telegram-bot`<br>
 **Step 3**<br>
 Run `bundle install` to install the gems from the `Gemfile`.<br>
 **Step 4**<br>
-Download the [Telegram app](https://desktop.telegram.org/), create an account and talk to the [Botfather](https://t.me/botfather). Follow the instructions and create a bot, you will then receive an API Token that looks like this: `1347431199:AAH4hPt6PDiJB4swk23Lb4oOzwocjKpba0S4` and the link to your bot.<br>
+Download the [Telegram app](https://desktop.telegram.org/), create an account and search for jarvis bot with the username of @Jarvisexcel_bot.<br>
+
 **Step 5**<br>
-Run `touch .env` on your terminal to create the `.env` file. Then add your tokens in the required fields `TELEGRAM_BOT_TOKEN=` inside the file.<br>
-**Step 6**<br>
 Run `ruby bin/main.rb` to start the bot.<br>
-**Step 7**<br>
+**Step 6**<br>
 You can use the commands defined in the [Available commands section](#available-commands-for-the-master-search-bot) defined above.<br>
 
 ## Repository Contents
